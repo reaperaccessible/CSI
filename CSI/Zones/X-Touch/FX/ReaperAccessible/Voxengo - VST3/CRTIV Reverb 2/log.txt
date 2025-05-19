@@ -1,0 +1,10 @@
+Zone : VST3: CRTIV Reverb 2 (Voxengo)
+Version : 1.0
+Creation date : 2022-10-19 15:08
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 13 paramètres
+1 page, 1 section, 13 paramètres

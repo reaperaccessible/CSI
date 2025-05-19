@@ -1,0 +1,35 @@
+Zone : Snare - 6.5x14 Inches - Joyful - Noise Blackbird Studio Model (DrumAccess)
+Version : 1.0
+Creation date : 2024-02-12 16:34
+Creator name : Armando
+Generator version : 4.0
+
+Details
+Page 1 :
+    - Section 1 : 17 paramètres
+Page 2 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 3 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 4 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 5 :
+    - Section 1 : 30 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 6 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+6 pages, 21 sections, 500 paramètres

@@ -1,0 +1,22 @@
+Zone : VST3: NA Cali Dual (Nembrini Audio)
+Version : 1.0
+Creation date : 2022-09-01 09:54
+Creator name : Armando Desilva
+Creator E-mail : armandodesilva7@orange.fr
+Generator version : 3.4
+
+Details
+Page 1 :
+    - Section 1 : 11 parameters
+    - Section 2 : 3 parameters
+    - Section 3 : 7 parameters
+    - Section 4 : 7 parameters
+    - Section 5 : 7 parameters
+Page 2 :
+    - Section 1 : 9 parameters
+    - Section 2 : 9 parameters
+    - Section 3 : 5 parameters
+    - Section 4 : 5 parameters
+    - Section 5 : 5 parameters
+    - Section 6 : 4 parameters
+2 pages, 11 sections, 72 parameters

@@ -1,0 +1,12 @@
+Zone : VST3: CLA Vocals Stereo (Waves)
+Version : 1.0
+Creation date : 2022-12-12 11:50
+Creator name : ReaperAccessible
+Creator E-mail : reaperaccessible@gmail.com
+Generator version : 3.6
+
+Details
+Page 1 :
+    - Section 1 : 14 paramètres
+    - Section 2 : 4 paramètres
+1 page, 2 sections, 18 paramètres

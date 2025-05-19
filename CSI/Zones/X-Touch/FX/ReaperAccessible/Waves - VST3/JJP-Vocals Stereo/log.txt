@@ -1,0 +1,12 @@
+Zone : VST3: JJP-Vocals Stereo (Waves)
+Version : 1.0
+Creation date : 2022-12-26 21:03
+Creator name : ReaperAccessible
+Creator E-mail : reaperaccessible@gmail.com
+Generator version : 3.6
+
+Details
+Page 1 :
+    - Section 1 : 11 paramètres
+    - Section 2 : 12 paramètres
+1 page, 2 sections, 23 paramètres

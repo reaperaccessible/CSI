@@ -1,0 +1,18 @@
+Zone : VST3: Fortin Cali Suite (Neural DSP)
+Version : 1.0
+Creation date : 2023-05-05 12:01
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 8 paramètres
+Page 2 :
+    - Section 1 : 6 paramètres
+    - Section 2 : 13 paramètres
+    - Section 3 : 14 paramètres
+    - Section 4 : 14 paramètres
+Page 3 :
+    - Section 1 : 8 paramètres
+    - Section 2 : 7 paramètres
+3 pages, 7 sections, 70 paramètres

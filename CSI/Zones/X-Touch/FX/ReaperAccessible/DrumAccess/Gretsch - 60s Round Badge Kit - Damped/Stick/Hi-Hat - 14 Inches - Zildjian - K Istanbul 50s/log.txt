@@ -1,0 +1,30 @@
+Zone : Hi-Hat - 14 Inches - Zildjian - K Istanbul 50s (DrumAccess)
+Version : 1.0
+Creation date : 2024-04-15 15:51
+Creator name : Armando
+Generator version : 4.0
+
+Details
+Page 1 :
+    - Section 1 : 13 paramètres
+Page 2 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 3 :
+    - Section 1 : 30 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 4 :
+    - Section 1 : 30 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+Page 5 :
+    - Section 1 : 27 paramètres
+    - Section 2 : 23 paramètres
+    - Section 3 : 23 paramètres
+    - Section 4 : 23 paramètres
+5 pages, 17 sections, 403 paramètres

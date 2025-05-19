@@ -1,0 +1,11 @@
+Zone : VST3: NA Analog Rack Guitar Equalizer (Nembrini Audio)
+Version : 1.0
+Creation date : 2022-09-01 09:50
+Creator name : Armando Desilva
+Creator E-mail : armandodesilva@orange.fr
+Generator version : 3.4
+
+Details
+Page 1 :
+    - Section 1 : 13 parameters
+1 page, 1 section, 13 parameters

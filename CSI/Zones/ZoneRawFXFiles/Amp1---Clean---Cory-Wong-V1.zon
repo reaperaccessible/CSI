@@ -1,0 +1,132 @@
+Zone "Amp1 - Clean - Cory Wong"
+    FXParam 0 "Input Gain" 
+    FXParam 1 "Gate" 
+    FXParam 2 "Output Gain" 
+    FXParam 3 "Pedals Active" [ 0.0 1.0 ]
+    FXParam 4 "Amp/Cab Linked" [ 0.0 1.0 ]
+    FXParam 5 "Wah-ng Active" [ 0.0 1.0 ]
+    FXParam 6 "Wah-ng Wah" 
+    FXParam 7 "Auto-Wah Sensitivity" 
+    FXParam 8 "Auto-Wah Attack" 
+    FXParam 9 "Auto-Wah Release" 
+    FXParam 10 "Wah-ng Mode" [ 0.0 1.0 ]
+    FXParam 11 "Auto-Wah 2 Active" [ 0.0 1.0 ]
+    FXParam 12 "Auto-Wah 2 Sensitivity" 
+    FXParam 13 "Auto-Wah 2 Range" 
+    FXParam 14 "Auto-Wah 2 Attack" 
+    FXParam 15 "Auto-Wah 2 Decay" 
+    FXParam 16 "The Fourth Position Compressor Active" [ 0.0 1.0 ]
+    FXParam 17 "The Fourth Position Compressor Compression" 
+    FXParam 18 "The Fourth Position Compressor Blend" 
+    FXParam 19 "The Fourth Position Compressor Tone" 
+    FXParam 20 "The Fourth Position Compressor Volume" 
+    FXParam 21 "The Tuber Active" [ 0.0 1.0 ]
+    FXParam 22 "The Tuber Drive" 
+    FXParam 23 "The Tuber Tone" 
+    FXParam 24 "The Tuber Level" 
+    FXParam 25 "The Big Rig Overdrive Active" [ 0.0 1.0 ]
+    FXParam 26 "The Big Rig Overdrive Drive" 
+    FXParam 27 "The Big Rig Overdrive Tone" 
+    FXParam 28 "The Big Rig Overdrive Level" 
+    FXParam 29 "Amps Active" [ 0.0 1.0 ]
+    FXParam 30 "Amp Type" [ 0.0 0.5 1.0 ]
+    FXParam 31 "D.I. Funk Console Compression" 
+    FXParam 32 "D.I. Funk Console Speed" [ 0.0 1.0 ]
+    FXParam 33 "D.I. Funk Console Tube Saturation" 
+    FXParam 34 "D.I. Funk Console High-Pass Freq" 
+    FXParam 35 "D.I. Funk Console Low-Pass Freq" 
+    FXParam 36 "D.I. Funk Console Lows Gain" 
+    FXParam 37 "D.I. Funk Console Lows Freq" [ 0.0 1.0 ]
+    FXParam 38 "D.I. Funk Console Mids Gain" 
+    FXParam 39 "D.I. Funk Console Mids Freq" [ 0.0 1.0 ]
+    FXParam 40 "D.I. Funk Console Highs Gain" 
+    FXParam 41 "D.I. Funk Console Highs Freq" [ 0.0 1.0 ]
+    FXParam 42 "D.I. Funk Console Output" 
+    FXParam 43 "The Clean Machine Bright" [ 0.0 1.0 ]
+    FXParam 44 "The Clean Machine Volume" 
+    FXParam 45 "The Clean Machine Bass" 
+    FXParam 46 "The Clean Machine Mid" 
+    FXParam 47 "The Clean Machine Treble" 
+    FXParam 48 "The Clean Machine Presence" 
+    FXParam 49 "The Clean Machine Output" 
+    FXParam 50 "The Amp Snob Volume" 
+    FXParam 51 "The Amp Snob Bright" [ 0.0 1.0 ]
+    FXParam 52 "The Amp Snob Drive" [ 0.0 1.0 ]
+    FXParam 53 "The Amp Snob Bass" 
+    FXParam 54 "The Amp Snob Mid" 
+    FXParam 55 "The Amp Snob Treble" 
+    FXParam 56 "The Amp Snob Master" 
+    FXParam 57 "The Amp Snob Presence" 
+    FXParam 58 "The Amp Snob Output" 
+    FXParam 59 "EQ Active" [ 0.0 1.0 ]
+    FXParam 60 "D.I. Funk Console EQ Active" [ 0.0 1.0 ]
+    FXParam 61 "D.I. Funk Console EQ Band 1" 
+    FXParam 62 "D.I. Funk Console EQ Band 2" 
+    FXParam 63 "D.I. Funk Console EQ Band 3" 
+    FXParam 64 "D.I. Funk Console EQ Band 4" 
+    FXParam 65 "D.I. Funk Console EQ Band 5" 
+    FXParam 66 "D.I. Funk Console EQ Band 6" 
+    FXParam 67 "D.I. Funk Console EQ Band 7" 
+    FXParam 68 "D.I. Funk Console EQ Band 8" 
+    FXParam 69 "D.I. Funk Console EQ Band 9" 
+    FXParam 70 "The Clean Machine EQ Active" [ 0.0 1.0 ]
+    FXParam 71 "The Clean Machine EQ Band 1" 
+    FXParam 72 "The Clean Machine EQ Band 2" 
+    FXParam 73 "The Clean Machine EQ Band 3" 
+    FXParam 74 "The Clean Machine EQ Band 4" 
+    FXParam 75 "The Clean Machine EQ Band 5" 
+    FXParam 76 "The Clean Machine EQ Band 6" 
+    FXParam 77 "The Clean Machine EQ Band 7" 
+    FXParam 78 "The Clean Machine EQ Band 8" 
+    FXParam 79 "The Clean Machine EQ Band 9" 
+    FXParam 80 "The Amp Snob EQ Active" [ 0.0 1.0 ]
+    FXParam 81 "The Amp Snob EQ Band 1" 
+    FXParam 82 "The Amp Snob EQ Band 2" 
+    FXParam 83 "The Amp Snob EQ Band 3" 
+    FXParam 84 "The Amp Snob EQ Band 4" 
+    FXParam 85 "The Amp Snob EQ Band 5" 
+    FXParam 86 "The Amp Snob EQ Band 6" 
+    FXParam 87 "The Amp Snob EQ Band 7" 
+    FXParam 88 "The Amp Snob EQ Band 8" 
+    FXParam 89 "The Amp Snob EQ Band 9" 
+    FXParam 90 "Cab Active" [ 0.0 1.0 ]
+    FXParam 91 "Cab Type" [ 0.0 0.5 1.0 ]
+    FXParam 92 "Cab 1 Active" [ 0.0 1.0 ]
+    FXParam 93 "Cab 1 Position" 
+    FXParam 94 "Cab 1 Distance" 
+    FXParam 95 "Cab 1 Level" 
+    FXParam 96 "Cab 1 Pan" 
+    FXParam 97 "Cab 1 Phase" [ 0.0 1.0 ]
+    FXParam 98 "Cab 1 Mic IR" [ 0.0 0.1666 0.3333 0.5 0.6666 0.8333 1.0 ]
+    FXParam 99 "Cab 2 Active" [ 0.0 1.0 ]
+    FXParam 100 "Cab 2 Position" 
+    FXParam 101 "Cab 2 Distance" 
+    FXParam 102 "Cab 2 Level" 
+    FXParam 103 "Cab 2 Pan" 
+    FXParam 104 "Cab 2 Phase" [ 0.0 1.0 ]
+    FXParam 105 "Cab 2 Mic IR" [ 0.0 0.1666 0.3333 0.5 0.6666 0.8333 1.0 ]
+    FXParam 106 "FX Active" [ 0.0 1.0 ]
+    FXParam 107 "Delay-y-y Active" [ 0.0 1.0 ]
+    FXParam 108 "Delay-y-y Mix" 
+    FXParam 109 "Delay-y-y Mode" [ 0.0 1.0 ]
+    FXParam 110 "Delay-y-y Sync" [ 0.0 1.0 ]
+    FXParam 111 "Delay-y-y Time L" 
+    FXParam 112 "Delay-y-y Time R" 
+    FXParam 113 "Delay-y-y Sync Note L" [ 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1.0 ]
+    FXParam 114 "Delay-y-y Sync Note R" [ 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1.0 ]
+    FXParam 115 "Delay-y-y Feedback" 
+    FXParam 116 "Delay-y-y Low Cut" 
+    FXParam 117 "Delay-y-y High Cut" 
+    FXParam 118 "Delay-y-y Tap" [ 0.0 1.0 ]
+    FXParam 119 "Delay-y-y Tempo" 
+    FXParam 120 "The Wash Active" [ 0.0 1.0 ]
+    FXParam 121 "The Wash Mix" 
+    FXParam 122 "The Wash Decay" 
+    FXParam 123 "The Wash Low Pass" 
+    FXParam 124 "The Wash High Pass" 
+    FXParam 125 "The Wash Mode" [ 0.0 1.0 ]
+    FXParam 126 "Bypass" [ 0.0 1.0 ]
+    FXParam 2207 "Contourner" 
+    FXParam 2208 "Wet" 
+    FXParam 2209 "Delta" 
+ZoneEnd

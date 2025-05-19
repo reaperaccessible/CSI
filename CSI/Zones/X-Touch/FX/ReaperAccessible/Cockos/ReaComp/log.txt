@@ -1,0 +1,11 @@
+Zone : VST: ReaComp (Cockos)
+Version : 2.0
+Creation date : 2022-09-02 14:46
+Creator name : Lee Julien
+Creator E-mail : reaperaccessible@gmail.com
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 18 parameters
+1 page, 1 section, 18 parameters

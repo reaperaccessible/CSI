@@ -1,0 +1,101 @@
+Zone "SelectedTrackFXMenu"
+  OnZoneActivation  Speak "FX Menu View"
+  OnZoneActivation SetXTouchDisplayColors Yellow
+  OnZoneDeactivation RestoreXTouchDisplayColors
+  DisplayUpper|  FXMenuNameDisplay
+  DisplayLower|  FXBypassedDisplay
+
+  SubZones
+    "SelectedTrackFXMenuHelp"
+  SubZonesEnd 
+
+// Left Panel
+
+  Rotary|  NoAction
+  RotaryPush|  GoFXSlot
+  RecordArm|  SpeakFXMenuName
+  Solo|  NoAction
+  Mute|  ToggleFXBypass
+  Select|  NoAction
+  Fader|  NoAction    
+
+// Right panel
+
+// Strip 1
+
+// Strip 2
+
+  MidiTracks  NoAction
+  Inputs  NoAction
+  AudioTracks  NoAction
+  AudioInstrument  NoAction
+  Aux  NoAction
+
+// Strip 3
+
+  F1  NoAction
+  F2  NoAction
+  F3  NoAction
+  F4  NoAction
+  F5  NoAction
+  F6  NoAction
+  F7  NoAction
+  F8  NoAction
+
+// Strip 4
+
+// Strip 5
+
+// Strip 6
+
+  Marker  NoAction
+  Hold+Marker  NoAction
+  Nudge  NoAction
+  Drop  NoAction
+  Replace  NoAction
+  Solo  Reaper 40281 // Track: Solo/unsolo tracks
+
+// Strip 7
+
+// Strip 8
+
+  Decrease+JogWheel  Bank SelectedTrackFXMenu -1
+  Decrease+JogWheel  SpeakFXMenuName
+  Increase+JogWheel  Bank SelectedTrackFXMenu 1
+  Increase+JogWheel  SpeakFXMenuName
+  Scrub  GoFXSlot
+
+// Strip 9
+
+  BankLeft  NoAction
+  Alt+BankLeft  Reaper _RSb21c0b88c9f9ff83906d9a7f040bdf258774a3f2 // Script: ReaperAccessible - CSI FX - Select previous FX of selected track
+  BankRight  NoAction
+  Alt+BankRight  Reaper _RSda3a4838d0de405652467e34f0fa1da80806ff5b // Script: ReaperAccessible - CSI FX - Select next FX of selected track
+  ChannelLeft  NoAction
+  Alt+ChannelLeft  Reaper _RS62d2543fe0624955495ca8d06696317bb2715e7e // Script: ReaperAccessible - CSI FX - Move selected FX one position up
+  Alt+ChannelLeft  Reaper _RSd7c46f4723c2096d120ba90faaac13e5fbe36a26 // ReaperAccessible - CSI FX - Speak name of selected FX on selected track
+  ChannelRight  NoAction
+  Alt+ChannelRight  Reaper _RSfde74f2baf9d7f31cd0f27b1138f830088fb994b // ReaperAccessible - CSI FX - Move selected FX one position down
+  Alt+ChannelRight  Reaper _RSd7c46f4723c2096d120ba90faaac13e5fbe36a26 // ReaperAccessible - CSI FX - Speak name of selected FX on selected track
+
+// Strip 10
+
+  Left  NoAction
+  Right  NoAction
+  Zoom  GoAssociatedZone SelectedTrackFXMenu
+  Zoom  GoAssociatedZone SelectedTrackFXMenu
+  Shift+Zoom  Reaper _S&M_TOGLFXCHAIN // SWS/S&M: Toggle show FX chain windows for selected tracks
+
+// Strip 11
+
+// Strip 12
+
+  smpteBeats  NoAction
+  smpteBeats  Speak "Toggle the console surface between both, Mixer and DAW control"
+  nameValue  GoSubZone "SelectedTrackFXMenuHelp"
+  GlobalView  GoHome
+  GlobalView  Speak "Global View"
+
+// Left panel
+
+ZoneEnd

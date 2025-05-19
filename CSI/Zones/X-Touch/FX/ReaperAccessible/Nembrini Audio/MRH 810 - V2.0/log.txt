@@ -1,0 +1,20 @@
+Zone : VST3: NA Mrh810 V2 (Nembrini Audio)
+Version : 1.0
+Creation date : 2022-09-01 09:55
+Creator name : Armando Desilva
+Creator E-mail : armandodesilva7@orange.fr
+Generator version : 3.4
+
+Details
+Page 1 :
+    - Section 1 : 9 parameters
+    - Section 2 : 3 parameters
+    - Section 3 : 3 parameters
+    - Section 4 : 5 parameters
+Page 2 :
+    - Section 1 : 20 parameters
+    - Section 2 : 7 parameters
+    - Section 3 : 5 parameters
+    - Section 4 : 5 parameters
+    - Section 5 : 5 parameters
+2 pages, 9 sections, 62 parameters

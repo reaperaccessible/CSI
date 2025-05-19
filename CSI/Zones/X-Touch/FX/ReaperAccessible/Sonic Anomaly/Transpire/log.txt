@@ -1,0 +1,10 @@
+Zone : VST: Transpire (Sonic Anomaly)
+Version : 1.0
+Creation date : 2022-10-03 10:08
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 7 paramètres
+1 page, 1 section, 7 paramètres

@@ -1,0 +1,10 @@
+Zone : VST: SEGX2 Gate (Sonic Anomaly)
+Version : 1.0
+Creation date : 2022-10-04 09:39
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 12 paramètres
+1 page, 1 section, 12 paramètres

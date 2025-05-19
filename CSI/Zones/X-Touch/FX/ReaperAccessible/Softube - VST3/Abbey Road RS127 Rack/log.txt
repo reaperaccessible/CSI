@@ -1,0 +1,11 @@
+Zone : VST3: Abbey Road RS127 Rack (Softube)
+Version : 2.0
+Creation date : 2022-09-01 19:10
+Creator name : Ludovic SANSONE by reaperaccessible.fr
+Creator E-mail : reaperaccessible@gmail.com
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 3 paramètres
+1 page, 1 section, 3 paramètres

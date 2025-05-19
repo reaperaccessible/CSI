@@ -1,0 +1,11 @@
+Zone : VST3: Abbey Road Plates Mono-Stereo (Waves)
+Version : 1.0
+Creation date : 2022-12-01 19:46
+Creator name : ReaperAccessible
+Creator E-mail : reaperaccessible@gmail.com
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 16 paramètres
+1 page, 1 section, 16 paramètres

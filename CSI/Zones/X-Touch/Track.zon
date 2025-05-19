@@ -1,0 +1,38 @@
+Zone "Track"
+
+  DisplayUpper|  TrackNameDisplay { Track }
+  Touch+DisplayLower|  TrackVolumeDisplay
+
+  VUMeter|  TrackOutputMeterMaxPeakLR
+
+  Fader|  TrackVolume 
+  Flip  Flip
+  Flip+Fader|  TrackPan 
+
+  Decrease+Rotary|  Reaper 40283 // Piste : Pousser le panoramique de la piste d'un pas vers la gauche
+  Increase+Rotary|  Reaper 40284 // Piste : Pousser le panoramique de la piste d'un pas vers la droite
+
+  RotaryPush|  TrackPan [ 0.5 ]
+  Flip+Rotary|  TrackVolume
+
+  RecordArm|  TrackRecordArm
+  Hold+RecordArm|  Reaper 40491 // Track: Unarm all tracks for recording
+
+  Solo|  TrackSolo
+  Hold+Solo|  Reaper 40340 // Track: Unsolo all tracks
+
+  Mute|  TrackMute
+  Hold+Mute|  Reaper 40339 // Track: Unmute all tracks
+
+  Select|  TrackUniqueSelect
+  Hold+Select|  Reaper _XENAKIOS_RESETTRACKVOL1 // Xenakios/SWS: Set volume of selected tracks to 0.0 dB
+
+  Up  Reaper 40286 // Track: Go to previous track
+  Down  Reaper 40285 // Track: Go to next track
+  Left  Reaper 40416 // Item navigation: Select and move to previous item
+  Right  Reaper 40417 // Item navigation: Select and move to next item
+  Footswitch1  Reaper _RS49d7a2298af8a73977d57c194be5024b3a73a9de // ReaperAccessible - Jamulus - Basculer le mute de la piste (Nom exacte).lua
+//  Footswitch1  Reaper 40044 // Transport: Play/stop
+  Footswitch2  Reaper 1013 // Transport: Record
+
+ZoneEnd

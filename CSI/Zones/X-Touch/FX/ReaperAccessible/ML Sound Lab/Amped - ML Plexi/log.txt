@@ -1,0 +1,15 @@
+Zone : VST3: Amped - ML Plexi (ML Sound Lab)
+Version : 1.0
+Creation date : 2022-12-06 10:07
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 18 paramètres
+    - Section 2 : 3 paramètres
+    - Section 3 : 3 paramètres
+    - Section 4 : 3 paramètres
+    - Section 5 : 3 paramètres
+    - Section 6 : 8 paramètres
+1 page, 6 sections, 38 paramètres

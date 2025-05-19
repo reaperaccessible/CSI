@@ -1,0 +1,26 @@
+Zone : VST3: Archetype Abasi (Neural DSP)
+Version : 1.0
+Creation date : 2022-12-23 17:38
+Creator name : Armando
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 6 paramètres
+    - Section 2 : 4 paramètres
+    - Section 3 : 9 paramètres
+Page 2 :
+    - Section 1 : 11 paramètres
+    - Section 2 : 11 paramètres
+Page 3 :
+    - Section 1 : 11 paramètres
+    - Section 2 : 11 paramètres
+Page 4 :
+    - Section 1 : 11 paramètres
+    - Section 2 : 11 paramètres
+Page 5 :
+    - Section 1 : 15 paramètres
+Page 6 :
+    - Section 1 : 11 paramètres
+    - Section 2 : 6 paramètres
+6 pages, 12 sections, 117 paramètres

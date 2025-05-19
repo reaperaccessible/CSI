@@ -1,0 +1,23 @@
+Zone "SelectedTrackReceive"
+  OnZoneActivation  Speak "Track Receives"
+  OnZoneActivation  SetXTouchDisplayColors Magenta
+  OnZoneDeactivation  RestoreXTouchDisplayColors
+  DisplayUpper|    TrackReceiveNameDisplay
+  DisplayLower|  TrackReceivePrePostDisplay
+  Fader|Touch+DisplayLower|  TrackReceiveVolumeDisplay
+
+  RotaryPush|  TrackReceivePrePost
+  Mute|  TrackReceiveMute
+  Rotary|  TrackReceivePan
+  Fader|   TrackReceiveVolume
+  Left  Bank SelectedTrackReceive -1
+  Right  Bank SelectedTrackReceive 1
+  ChannelLeft  Bank SelectedTrackReceive -8
+  ChannelRight  Bank SelectedTrackReceive 8
+  RecordArm|  SpeakTrackReceiveSource
+  Solo|    NoAction
+  Select|  NoAction
+  F2    Speak "You are already in Track Receive View"
+  F3    GoHome
+  F3    Speak "All tracks visible, Global View"
+ZoneEnd

@@ -1,0 +1,158 @@
+Zone "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess)"
+// Page 1 Section 1
+// page : "Main"
+// section : "Ride Master"
+
+    Rotary1           NoAction
+    Rotary2           NoAction
+    Rotary3           NoAction
+    Rotary4           NoAction
+    Rotary5           NoAction
+    Rotary6           NoAction
+    Rotary7           NoAction
+    Rotary8           NoAction
+    RotaryPush1       NoAction
+    RotaryPush2       NoAction
+    RotaryPush3       NoAction
+    RotaryPush4       NoAction
+    RotaryPush5       NoAction
+    RotaryPush6       NoAction
+    RotaryPush7       NoAction
+    RotaryPush8       NoAction
+    RecordArm1        NoAction
+    RecordArm2        NoAction
+    RecordArm3        NoAction
+    RecordArm4        NoAction
+    RecordArm5        NoAction
+    RecordArm6        NoAction
+    RecordArm7        NoAction
+    RecordArm8  FXParam 182 [ 0.7952 ] "Cymbal Master Volume" 
+    RecordArm8  FXParam 183 [ 0.5037 ] "Cymbal Master Pan" 
+    RecordArm8  FXParam 184 [ 0.5037 ] "Cymbal Master Tune" 
+    RecordArm8  FXParam 185 [ 0.0000 ] "Cymbal Master Muffling" 
+    RecordArm8  Speak "Reset"
+    Solo1             NoAction
+    Solo2             NoAction
+    Solo3             NoAction
+    Solo4             NoAction
+    Solo5             NoAction
+    Solo6             NoAction
+    Solo7             NoAction
+    Solo8             NoAction
+    Mute1             NoAction
+    Mute2             NoAction
+    Mute3             NoAction
+    Mute4             NoAction
+    Mute5             NoAction
+    Mute6             NoAction
+    Mute7             NoAction
+    Mute8             NoAction
+    Select5           NoAction
+    Select6           NoAction
+    Select7           NoAction
+    Select8           NoAction
+    Fader1  FXParam 182 "Cymbal Master Volume" 
+    Select1  FXParam 182 [ 0.7952 ] "Cymbal Master Volume" 
+    Fader2  FXParam 183 "Cymbal Master Pan" 
+    Select2  FXParam 183 [ 0.5037 ] "Cymbal Master Pan" 
+    Fader3  FXParam 184 "Cymbal Master Tune" 
+    Select3  FXParam 184 [ 0.5037 ] "Cymbal Master Tune" 
+    Fader4  FXParam 185 "Cymbal Master Muffling" 
+   Select4  FXParam 185 [ 0.0000 ] "Cymbal Master Muffling" 
+    Fader5            NoAction
+    Fader6            NoAction
+    Fader7            NoAction
+    Fader8            NoAction
+    Shift+Rotary1     NoAction
+    Shift+Rotary2     NoAction
+    Shift+Rotary3     NoAction
+    Shift+Rotary4     NoAction
+    Shift+Rotary5     NoAction
+    Shift+Rotary6     NoAction
+    Shift+Rotary7     NoAction
+    Shift+Rotary8     NoAction
+    Shift+RotaryPush1 NoAction
+    Shift+RotaryPush2 NoAction
+    Shift+RotaryPush3 NoAction
+    Shift+RotaryPush4 NoAction
+    Shift+RotaryPush5 NoAction
+    Shift+RotaryPush6 NoAction
+    Shift+RotaryPush7 NoAction
+    Shift+RotaryPush8 NoAction
+    Shift+RecordArm1  NoAction
+    Shift+RecordArm2  NoAction
+    Shift+RecordArm3  NoAction
+    Shift+RecordArm4  NoAction
+    Shift+RecordArm5  NoAction
+    Shift+RecordArm6  NoAction
+    Shift+RecordArm7  NoAction
+    Shift+RecordArm8  NoAction
+    Shift+Solo1       NoAction
+    Shift+Solo2       NoAction
+    Shift+Solo3       NoAction
+    Shift+Solo4       NoAction
+    Shift+Solo5       NoAction
+    Shift+Solo6       NoAction
+    Shift+Solo7       NoAction
+    Shift+Solo8       NoAction
+    Shift+Mute1       NoAction
+    Shift+Mute2       NoAction
+    Shift+Mute3       NoAction
+    Shift+Mute4       NoAction
+    Shift+Mute5       NoAction
+    Shift+Mute6       NoAction
+    Shift+Mute7       NoAction
+    Shift+Mute8       NoAction
+    Shift+Select1     NoAction
+    Shift+Select2     NoAction
+    Shift+Select3     NoAction
+    Shift+Select4     NoAction
+    Shift+Select5     NoAction
+    Shift+Select6     NoAction
+    Shift+Select7     NoAction
+    Shift+Select8     NoAction
+    Shift+Fader1      NoAction
+    Shift+Fader2      NoAction
+    Shift+Fader3      NoAction
+    Shift+Fader4      NoAction
+    Shift+Fader5      NoAction
+    Shift+Fader6      NoAction
+    Shift+Fader7      NoAction
+    Shift+Fader8      NoAction
+    MasterFader  FXParam 2594 "Wet" 
+    Flip              ToggleFXBypass
+    Scrub             Reaper 42455
+    BankLeft          Reaper _S&M_PREV_FOCFX_PRESET
+    BankRight         Reaper _S&M_NEXT_FOCFX_PRESET
+    Footswitch1       Reaper _S&M_PREV_FOCFX_PRESET
+    Footswitch2       Reaper _S&M_NEXT_FOCFX_PRESET
+
+
+    SubZones
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 02-1"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 02-2"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 02-3"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 02-4"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 03-1"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 03-2"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 03-3"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 03-4"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 04-1"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 04-2"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 04-3"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 04-4"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 05-1"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 05-2"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 05-3"
+        "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 05-4"
+    SubZonesEnd
+
+    Up        NoAction
+    Down      Speak "Ride Close"
+    Down      GoSubZone "Ride - 20 Inches - Bosphorus - Ferit King Ping (DrumAccess) 02-1"
+    Left      NoAction
+    Right     NoAction
+    Marker    Speak "Main, Ride Master"
+    Hold+Marker Speak "Ride - 20 Inches - Bosphorus - Ferit King Ping"
+    OnZoneActivation    Speak "Ride - 20 Inches - Bosphorus - Ferit King Ping"
+ZoneEnd

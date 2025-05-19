@@ -1,0 +1,11 @@
+Zone : VST: TSC 1.1 (Mercuriall)
+Version : 2.0
+Creation date : 2022-09-05 15:41
+Creator name : Armando Da Silva
+Creator E-mail : armandodasilva7@orange.fr
+Generator version : 3.5
+
+Details
+Page 1 :
+    - Section 1 : 8 paramètres
+1 page, 1 section, 8 paramètres

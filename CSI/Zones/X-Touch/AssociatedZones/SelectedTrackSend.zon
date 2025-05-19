@@ -1,0 +1,21 @@
+Zone "SelectedTrackSend"
+  OnZoneActivation  Speak "Track Sends"
+  DisplayUpper|  TrackSendNameDisplay
+  DisplayLower|  TrackSendPrePostDisplay
+  Fader|Touch+DisplayLower|  TrackSendVolumeDisplay
+
+  RotaryPush|  TrackSendPrePost
+  Mute|  TrackSendMute
+  Rotary|  TrackSendPan
+  Fader|  TrackSendVolume
+  Left  Bank SelectedTrackSend -1
+  Right  Bank SelectedTrackSend 1
+  ChannelLeft  Bank SelectedTrackSend -8
+  ChannelRight  Bank SelectedTrackSend 8
+  RecordArm|  SpeakTrackSendDestination
+  Solo|   NoAction
+  Select|  NoAction
+  F1  Speak "You are already in Track Sends View"
+  F3  GoHome
+  F3  Speak "All tracks visible, Global View"
+ZoneEnd
