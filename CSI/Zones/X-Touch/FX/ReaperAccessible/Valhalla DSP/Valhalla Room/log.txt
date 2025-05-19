@@ -1,6 +1,0 @@
-Zone : VST: ValhallaRoom (Valhalla DSP, LLC)
-Version : 1.0
-Creation date : 2022-08-31 18:57
-Creator name : Lee Julien
-Creator E-mail : reaperaccessible@gmail.com
-Generator version : 3.3

@@ -1,6 +1,0 @@
-Zone : VST: GDuckDly (GVST)
-Version : 1.0
-Creation date : 2022-08-31 08:11
-Creator name : Lee Julien
-Creator E-mail : reaperaccessible@gmail.com
-Generator version : 3.3

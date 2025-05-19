@@ -1,6 +1,0 @@
-Zone : VST: ValhallaUberMod (Valhalla DSP, LLC)
-Version : 1.0
-Creation date : 2022-08-31 19:13
-Creator name : Lee Julien
-Creator E-mail : reaperaccessible@gmail.com
-Generator version : 3.3
