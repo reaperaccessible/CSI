@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible CSI scripts" commit="dd8a9912c4fcb00a7fe8af9cdfd421a94e6da972">
+<index version="1" name="ReaperAccessible CSI scripts" commit="02626ce459b80f14d9bb78ac257cfab958d0b3c0">
   <category name="Main">
     <reapack name="ReaperAccessible - CSI Envelope - Decrease Envelope Point Value by 1.lua" type="script" desc="Decrease Envelope Point Value by 1">
       <version name="1.0" author="Ludovic SANSONE for ReaperAccessible" time="2025-05-19T18:35:31Z">
@@ -123,10 +123,22 @@
         <source main="main">https://github.com/reaperaccessible/CSI/raw/dd8a9912c4fcb00a7fe8af9cdfd421a94e6da972/Main/ReaperAccessible%20-%20CSI%20Master%20FX%20-%20Speak%20name%20of%20selected%20FX%20on%20Master%20Track.lua</source>
       </version>
     </reapack>
-    <reapack name="ReaperAccessible - CSI Misc - Speak project tempo and time signature, at current position.lua" type="script" desc="Speak project tempo and time signature, at current position">
-      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-05-19T18:35:31Z">
-        <changelog><![CDATA[# 2025-05-18 - Adding CSI scripts to the ReaperAccessible repository]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/CSI/raw/a8667d3158d3256cc65b68cd45deca03f24bab69/Main/ReaperAccessible%20-%20CSI%20Misc%20-%20Speak%20project%20tempo%20and%20time%20signature,%20at%20current%20position.lua</source>
+    <reapack name="ReaperAccessible - CSI Recording - Remove autopunch selection points.lua" type="script" desc="Remove autopunch selection points">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-14T11:04:13Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/02626ce459b80f14d9bb78ac257cfab958d0b3c0/Main/ReaperAccessible%20-%20CSI%20Recording%20-%20Remove%20autopunch%20selection%20points.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - CSI Recording - Set autopunch selection end point.lua" type="script" desc="Set autopunch selection end point">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-14T11:04:13Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/02626ce459b80f14d9bb78ac257cfab958d0b3c0/Main/ReaperAccessible%20-%20CSI%20Recording%20-%20Set%20autopunch%20selection%20end%20point.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - CSI Recording - Set autopunch selection start point.lua" type="script" desc="Set autopunch selection start point">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-14T11:04:13Z">
+        <changelog><![CDATA[# 2025-07-19 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/02626ce459b80f14d9bb78ac257cfab958d0b3c0/Main/ReaperAccessible%20-%20CSI%20Recording%20-%20Set%20autopunch%20selection%20start%20point.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI Tool - Last Touched Param Steps.lua" type="script" desc="Last Touched Param Steps">
