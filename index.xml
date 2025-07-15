@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible CSI scripts" commit="871fcd0d08fe3aafe0a4662334d30f5e489fae4d">
+<index version="1" name="ReaperAccessible CSI scripts" commit="43a907eeb97284dbaa90d3e42e08687c278eb407">
   <category name="Main">
+    <reapack name="ReaperAccessible - CSI Edit - Set item selection end point to delete, ripple all tracks.lua" type="script" desc="Set item selection end point to delete, ripple all tracks">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-15T23:43:05Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/43a907eeb97284dbaa90d3e42e08687c278eb407/Main/ReaperAccessible%20-%20CSI%20Edit%20-%20Set%20item%20selection%20end%20point%20to%20delete,%20ripple%20all%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - CSI Edit - Set item selection start point to delete, ripple all tracks.lua" type="script" desc="Set item selection start point to delete, ripple all tracks">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-15T23:43:05Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - Translation of messages into English]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/43a907eeb97284dbaa90d3e42e08687c278eb407/Main/ReaperAccessible%20-%20CSI%20Edit%20-%20Set%20item%20selection%20start%20point%20to%20delete,%20ripple%20all%20tracks.lua</source>
+      </version>
+    </reapack>
     <reapack name="ReaperAccessible - CSI Envelope - Decrease Envelope Point Value by 1.lua" type="script" desc="Decrease Envelope Point Value by 1">
       <version name="1.0" author="Ludovic SANSONE for ReaperAccessible" time="2025-05-19T18:35:31Z">
         <changelog><![CDATA[# 2025-05-18 - Adding CSI scripts to the ReaperAccessible repository]]></changelog>
