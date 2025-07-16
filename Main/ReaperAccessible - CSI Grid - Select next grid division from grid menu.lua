@@ -1,5 +1,5 @@
 -- @description Select next grid division from grid menu
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -30,7 +30,7 @@ local dict = {
     {1/48, "1/48, 32nd Note Triplet"},
     {1/5, "1/5, Quarter Note Quintuplet"},
     {1/7, "1/7, Quarter Note Septuplet"},
-    {1/9, "1/9", Nine‑Tuplet},
+    {1/9, "1/9, Nine‑Tuplet"},
     {1/10, "1/10, Ten‑Tuplet"},
     {1/18, "1/18, Eighteen‑Tuplet"}
 }
