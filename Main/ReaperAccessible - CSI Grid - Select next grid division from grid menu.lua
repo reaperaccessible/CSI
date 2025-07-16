@@ -1,5 +1,5 @@
 -- @description Select next grid division from grid menu
--- @version 1.0
+-- @version 1.1
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -11,28 +11,28 @@ reaper.Undo_BeginBlock()
 local ret, grid = reaper.GetSetProjectGrid(0, 0)
 
 local dict = {
-    {4, "4 Measures, 4 Mesures"},
-    {3, "3 Measures, 3 Mesures"},
-    {2, "2 Measures, 2 Mesures"},    
-    {1, "One Measure, Une Mesure"},
-    {1/2, "1/2, Half Note, Blanche"},
-    {1/4, "1/4, Quarter note, Noire"},
-    {1/8, "1/8, Eighth Note, Croche"},
-    {1/16, "1/16, Sixteenth note, Double Croche"},
-    {1/32, "1/32, Thirteenth Note, Triple Croche"},
-    {1/64, "1/64, 16th Note, Quadruple Croche"},
-    {1/128, "1/128, 18th Note, Quintuple Croche"},
-    {2/3, "2/3, Whole Note Triplet, Triolet de Ronde"},
-    {1/3, "1/3, Half note triplet, Triolet de blanche"},
-    {1/6, "1/6, Quarter Note Triplet, Triolet de noire"},
-    {1/12, "1/12, Eighth Note Triplet, Triolet de croche"},
-    {1/24, "1/24, Sixteenth Note Triplet, Triolet De Double Croche"},
-    {1/48, "1/48, 32nd Note Triplet, Triolet De Triple Croche"},
-    {1/5, "1/5, Quarter Note Quintuplet, Quintolet De Noire"},
-    {1/7, "1/7, Quarter Note Septuplet, Septolet De Noire"},
-    {1/9, "1/9"},
-    {1/10, "1/10, Quaver Quintuplet, Quintolet De Croche"},
-    {1/18, "1/18"}
+    {4, "4 Measures"},
+    {3, "3 Measures"},
+    {2, "2 Measures"},    
+    {1, "One Measure"},
+    {1/2, "1/2, Half Note"},
+    {1/4, "1/4, Quarter note"},
+    {1/8, "1/8, Eighth Note"},
+    {1/16, "1/16, Sixteenth note"},
+    {1/32, "1/32, Thirteenth Note"},
+    {1/64, "1/64, 16th Note"},
+    {1/128, "1/128, 18th Note"},
+    {2/3, "2/3, Whole Note Triplet"},
+    {1/3, "1/3, Half note triplet"},
+    {1/6, "1/6, Quarter Note Triplet"},
+    {1/12, "1/12, Eighth Note Triplet"},
+    {1/24, "1/24, Sixteenth Note Triplet"},
+    {1/48, "1/48, 32nd Note Triplet"},
+    {1/5, "1/5, Quarter Note Quintuplet"},
+    {1/7, "1/7, Quarter Note Septuplet"},
+    {1/9, "1/9", Nine‑Tuplet},
+    {1/10, "1/10, Ten‑Tuplet"},
+    {1/18, "1/18, Eighteen‑Tuplet"}
 }
 
 function getNextDivision(g, d)
