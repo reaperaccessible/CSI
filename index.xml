@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible CSI scripts" commit="5f942e54601db60a5e692dc3c51edd969dd96478">
+<index version="1" name="ReaperAccessible CSI scripts" commit="50de2fd0b35f97bffe5dd6bad18c8755710e7b62">
   <category name="Main">
     <reapack name="ReaperAccessible - CSI Edit - Set item selection end point to delete, ripple all tracks.lua" type="script" desc="Set item selection end point to delete, ripple all tracks">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-15T23:43:05Z">
@@ -55,6 +55,12 @@
       <version name="1.0" author="Ludovic SANSONE for ReaperAccessible" time="2025-05-19T18:35:31Z">
         <changelog><![CDATA[# 2025-05-18 - Adding CSI scripts to the ReaperAccessible repository]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/a8667d3158d3256cc65b68cd45deca03f24bab69/Main/ReaperAccessible%20-%20CSI%20Envelope%20-%20Toggle%20show%20envelopes%20for%20all%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - CSI FX - Bypass-Unbypass Amp and Stomp.lua" type="script" desc="Bypass-Unbypass Amp and Stomp">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T13:59:36Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/50de2fd0b35f97bffe5dd6bad18c8755710e7b62/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Bypass-Unbypass%20Amp%20and%20Stomp.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Delete selected FX of selected track.lua" type="script" desc="Delete selected FX of selected track">
@@ -223,13 +229,6 @@
       <version name="1.2" author="Erwin GOOSSEN for Reaper Accessible" time="2025-05-19T18:35:31Z">
         <changelog><![CDATA[# 2025-05-18 - Adding CSI scripts to the ReaperAccessible repository]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/a8667d3158d3256cc65b68cd45deca03f24bab69/Main/ReaperAccessible%20-%20CSI%20Tool%20-%20Write%20Params%20to%20CSI-Zones-ZoneRawFXFiles%20for%20All%20FX%20on%20Selected%20track.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ReaperAccessible - Misc - Speak name of selected tracks.lua" type="script" desc="Speak name of selected tracks">
-      <version name="1.4" author="Lee Julien for ReaperAccessible" time="2025-07-17T01:13:20Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log
-# 2025-07-16 - The script now announces all selected tracks, including the master track]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/CSI/raw/5f942e54601db60a5e692dc3c51edd969dd96478/Main/ReaperAccessible%20-%20Misc%20-%20Speak%20name%20of%20selected%20tracks.lua</source>
       </version>
     </reapack>
   </category>
