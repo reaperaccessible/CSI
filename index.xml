@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible CSI scripts" commit="058465ed3004d6b79d274988b246083caa4e04ea">
+<index version="1" name="ReaperAccessible CSI scripts" commit="301239f42863fdb7f51e5253afeb0bbb7757b119">
   <category name="Main">
     <reapack name="ReaperAccessible - CSI Edit - Set item selection end point to delete, ripple all tracks.lua" type="script" desc="Set item selection end point to delete, ripple all tracks">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-07-15T23:43:05Z">
@@ -94,11 +94,19 @@
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX1.lua</source>
       </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX1.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX2.lua" type="script" desc="Select FX2">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T14:47:01Z">
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX2.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX2.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX3.lua" type="script" desc="Select FX3">
@@ -106,11 +114,19 @@
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX3.lua</source>
       </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX3.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX4.lua" type="script" desc="Select FX4">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T14:47:01Z">
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX4.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX4.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX5.lua" type="script" desc="Select FX5">
@@ -118,11 +134,19 @@
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX5.lua</source>
       </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX5.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX6.lua" type="script" desc="Select FX6">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T14:47:01Z">
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX6.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX6.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX7.lua" type="script" desc="Select FX7">
@@ -130,11 +154,19 @@
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX7.lua</source>
       </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX7.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select FX8.lua" type="script" desc="Select FX8">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T14:47:01Z">
         <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/CSI/raw/058465ed3004d6b79d274988b246083caa4e04ea/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX8.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-09-01T15:28:58Z">
+        <changelog><![CDATA[# 2025-09-01 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/CSI/raw/301239f42863fdb7f51e5253afeb0bbb7757b119/Main/ReaperAccessible%20-%20CSI%20FX%20-%20Select%20FX8.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - CSI FX - Select next FX of selected track.lua" type="script" desc="Select next FX of selected track">
