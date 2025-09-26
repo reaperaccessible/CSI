@@ -1,90 +1,96 @@
 -- @description Select FX3
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
 --   # 2025-09-01 - New script
 
 
-local function contains_amp(name)
-  return name and string.find(string.lower(name), "amp", 1, true) ~= nil
+-- CONFIG
+local TARGET_SLOT = 3            -- numéro humain: 1 = FX #1, 2 = FX #2, etc.
+local ENFORCE_SINGLE_AMP = true  -- un seul "amp" actif sur la piste
+local SELECT_IN_UI = false       -- true pour montrer/sélectionner l’FX dans la chaîne
+local AMP_PATTERNS = { "%f[%a]amp%f[%A]", "amplitube", "amp room" } -- évite "preamp"
+
+-- Utils
+local function is_amp(name)
+  if not name or name == "" then return false end
+  local s = name:lower()
+  for _, pat in ipairs(AMP_PATTERNS) do
+    if s:find(pat) then return true end
+  end
+  return false
 end
 
 local function base_name_before_dash(name)
   if not name then return "" end
-  local pos = string.find(name, "%s*%-") -- spaces before '-'
-  local base = pos and string.sub(name, 1, pos - 1) or name
-  base = base:gsub("^%s+", ""):gsub("%s+$", "")
-  return base
+  local pos = name:find("%s*%-")
+  local base = pos and name:sub(1, pos - 1) or name
+  return base:gsub("^%s+", ""):gsub("%s+$", "")
 end
 
 local function speak(msg)
   if reaper.APIExists("osara_outputMessage") then
-    reaper.osara_outputMessage(msg) -- one argument only
+    reaper.osara_outputMessage(msg)
   end
 end
 
-local function get_track_from_index(idx)
-  if idx == 0x1000000 then return reaper.GetMasterTrack(0) end
-  return reaper.GetTrack(0, idx) or reaper.GetTrack(0, idx - 1)
+local function get_single_selected_track()
+  local cnt = reaper.CountSelectedTracks(0)
+  if cnt ~= 1 then return nil, cnt end
+  return reaper.GetSelectedTrack(0, 0), 1
 end
 
+-- Main
 reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
 
--- Exige un FX de piste focalisé pour déterminer la piste
-local retval, track_idx, _, _ = reaper.GetFocusedFX()
-if retval ~= 1 then
-  reaper.PreventUIRefresh(-1)
-  reaper.Undo_EndBlock("Select FX #3 then toggle (track FX only)", -1)
-  return
-end
-
-local track = get_track_from_index(track_idx)
+local track, selcnt = get_single_selected_track()
 if not track then
+  -- silencieux par exigence (aucune ou plusieurs pistes sélectionnées)
   reaper.PreventUIRefresh(-1)
-  reaper.Undo_EndBlock("Select FX #3 then toggle (track FX only)", -1)
+  reaper.Undo_EndBlock("Abort: require exactly one selected track", -1)
   return
 end
 
--- 1) Sélectionner l’FX #3 si présent
 local fx_count = reaper.TrackFX_GetCount(track)
-if fx_count < 3 then
-  speak("No FX in this slot")
+local fxindex = math.max(0, (TARGET_SLOT or 1) - 1) -- 0-based
+
+if fxindex >= fx_count then
+  speak(string.format("No FX in slot %d", fxindex + 1))
   reaper.PreventUIRefresh(-1)
-  reaper.Undo_EndBlock("Select FX #3 then toggle (track FX only)", -1)
+  reaper.Undo_EndBlock(string.format("No FX in slot %d on selected track", fxindex + 1), -1)
   return
 end
 
--- Slot 3 -> index 2
-local fxindex = 2
-reaper.TrackFX_Show(track, fxindex, 1) -- show chain and select that FX
+if SELECT_IN_UI then
+  reaper.TrackFX_Show(track, fxindex, 1) -- montre la chaîne et sélectionne l’FX ciblé
+end
 
--- 2) Logique Amp / non-Amp
-local _, focused_name = reaper.TrackFX_GetFXName(track, fxindex, "")
-local name_base = base_name_before_dash(focused_name)
+local _, fxname = reaper.TrackFX_GetFXName(track, fxindex, "")
+local label = (base_name_before_dash(fxname) ~= "" and base_name_before_dash(fxname)) or fxname
+
 local was_enabled = reaper.TrackFX_GetEnabled(track, fxindex)
+local now_enabled = not was_enabled
+if now_enabled ~= was_enabled then
+  reaper.TrackFX_SetEnabled(track, fxindex, now_enabled)
+end
 
-if contains_amp(focused_name) then
-  -- "Amp" -> toggle ce FX, puis bypass tous les autres "Amp"
-  reaper.TrackFX_SetEnabled(track, fxindex, not was_enabled)
+-- “Un seul amp actif” si on vient d’activer un amp
+if ENFORCE_SINGLE_AMP and now_enabled and is_amp(fxname) then
   for i = 0, fx_count - 1 do
     if i ~= fxindex then
       local _, nm = reaper.TrackFX_GetFXName(track, i, "")
-      if contains_amp(nm) then
-        reaper.TrackFX_SetEnabled(track, i, false) -- bypass
+      if is_amp(nm) and reaper.TrackFX_GetEnabled(track, i) then
+        reaper.TrackFX_SetEnabled(track, i, false)
       end
     end
   end
-else
-  -- Non-"Amp": toggle uniquement ce FX
-  reaper.TrackFX_SetEnabled(track, fxindex, not was_enabled)
 end
 
--- 3) Énoncé final "bypass"/"unbypass"
-local is_enabled_now = reaper.TrackFX_GetEnabled(track, fxindex)
-local state_str = is_enabled_now and "unbypass" or "bypass"
-speak(string.format("%s (%s)", name_base ~= "" and name_base or focused_name, state_str))
+speak(string.format("%s (%s)", label, now_enabled and "unbypass" or "bypass"))
 
 reaper.PreventUIRefresh(-1)
-reaper.Undo_EndBlock("Select FX #3 then toggle (track FX only)", -1)
+local trnum = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER")
+local trlabel = (trnum == 0) and "Master" or tostring(trnum)
+reaper.Undo_EndBlock(string.format("Toggle FX slot %d on selected track %s: %s", fxindex + 1, trlabel, label), -1)
